@@ -1,5 +1,6 @@
 #include<stdio.h>
 void main(){
-    if(printf("Hello world")){
+    if(printf("Helloworld"))
+    {
     }
 }
