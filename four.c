@@ -1,6 +1,6 @@
-#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdbool.h>
+#include<stdio.h>
+#include<stdlib.h>
 struct Node{
     char letter;
     bool wordComp;
@@ -37,7 +37,6 @@ bool check(const char* word)
             {
                 return false;
             }
-
         }
         else if(currChar == 39)
         {
