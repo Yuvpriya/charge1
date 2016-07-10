@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-int a,p,i,j,count=0;
+int a,p,i,j;
+int count=0;
 clrscr();
 printf("\n Enter the snumber of students:");
 scanf("%d",&a);
